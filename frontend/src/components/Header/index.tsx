@@ -1,8 +1,7 @@
 import logo from '../../assets/img/logo.svg';
+import './styles.css';
 
-import './styles.css'
-
-function Header(): JSX.Element {
+function Header(){
     return (
         <header>
             <div className="dsmeta-logo-container">
@@ -16,4 +15,4 @@ function Header(): JSX.Element {
         </header>
     );
 }
-export default Header
+export default Header;
